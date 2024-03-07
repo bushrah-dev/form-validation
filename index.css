@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(lightblue, skyblue);
+}
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    padding: 30px;
+    background: whitesmoke;
+    border-radius: 10px;
+    font-size: 15px;
+}
+h1{
+    color: black;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: skyblue;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: 3px solid white;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+input:focus{
+    outline: 1;
+}
+.control.error input{
+    border-color: red;
+}
+.control .error{
+    columns: red;
+    font-size: 15px;
+    height: 15px;
+}
